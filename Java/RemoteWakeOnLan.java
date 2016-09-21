@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
 /**
  * 远程启动PC<br/>
  * 发送一个数据包，前6位放入0xFF的二进制，第7位开始把mac地址二进制放入16次
- * @author GJ 2016-09-20
+ * @author kaven 2016-09-20
  *
  */
 public class RemoteWakeOnLan {
@@ -56,7 +56,7 @@ public class RemoteWakeOnLan {
 	 * 把MAC地址字符串转换成二进制
 	 * @param hexStr 以“:”或“-”分隔的字符串
 	 * @return
-	 * @author GJ
+	 * @author kaven
 	 * @date 2016-09-20
 	 */
 	private byte[] macToBytes(String hexStr){
